@@ -6,7 +6,6 @@
 npm
 java jre
 chrome
-firefox
 ```
 
 ## Step-by-step install
