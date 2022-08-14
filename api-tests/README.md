@@ -4,6 +4,7 @@
 
 ```shell script
 npm
+mocha
 ```
 
 ## Step-by-step install
