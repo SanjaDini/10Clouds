@@ -13,10 +13,12 @@ export const config: Options.Testrunner = {
   },
   exclude: [],
   maxInstances: 1,
-  capabilities: [{
-    browserName: 'chrome',
-    acceptInsecureCerts: true
-  }],
+  capabilities: [
+    {
+      browserName: 'chrome',
+      acceptInsecureCerts: true,
+    },
+  ],
   // ===================
   // Test Configurations
   // ===================
@@ -120,7 +122,7 @@ export const config: Options.Testrunner = {
    * Hook that gets executed before the suite starts
    * @param {Object} suite suite details
    */
-  beforeSuite: async function (suite) {
+  beforeSuite: async function () {
     await browser.maximizeWindow();
   },
   /**
